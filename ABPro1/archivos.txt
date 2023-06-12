@@ -1,0 +1,19 @@
+
+Para el proyecto Django:
+
+__init__.py: Un archivo vacío utilizado para que Python reconozca el directorio como un paquete Python.
+manage.py: Un script que se utiliza para administrar el proyecto.
+settings.py: Archivo de configuración principal del proyecto.
+urls.py: Archivo de URL principal del proyecto.
+wsgi.py: Archivo de punto de entrada WSGI para servir el proyecto en un servidor web compatible con WSGI.
+asgi.py: Archivo de punto de entrada ASGI para servir el proyecto en un servidor web compatible con ASGI.
+
+Para la aplicación Django:
+
+models.py: Archivo donde se definen los modelos de base de datos de la aplicación.
+views.py: Archivo donde se define la lógica detrás de las páginas web de la aplicación.
+urls.py: Archivo de URL de la aplicación para definir las rutas y asignarlas a las vistas correspondientes.
+admin.py: Archivo para registrar los modelos de la aplicación en el panel de administración de Django.
+apps.py: Archivo de configuración adicional de la aplicación.
+tests.py: Archivo para escribir pruebas automatizadas de la aplicación.
+migrations/: Directorio que contiene archivos de migración utilizados para sincronizar la base de datos con los modelos definidos.
